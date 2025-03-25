@@ -1,0 +1,50 @@
+learn about 
+
+- display property - how a element can redner on UI we can do that by display property
+  - block
+  - box-sizing (explaination in notes)
+  - inline
+  - inline-block (combination of block type element and inline element)
+ 
+
+
+1. block elements -
+    - div
+    - p
+    - h1
+    - many more
+
+    a. it always comes to new line (always render to next line)
+    b. it takes width from extreme left to extrme right (takes full space in context of width by default)
+    c. we can change height and width
+    d. we can change margin and padding
+
+
+2. inline elements - 
+    - anchor tag
+    - span 
+    - many more
+
+    a. if width is available then it tries to come in same line
+       for example if there are multiple span one after another then they will come in same line and if space is not there then they will come in next line
+       in short if width is available then they will come in same line  and if width is not available then they will come to next line (they go to next line)
+    b. whatever width of content is, inline element will take that much width
+    c. no custom width and height
+    d. no custom margin on vertical side but we can give it margin on horizontal side
+    e. we can give custom padding 
+    
+
+- span tag by defalut is inline element we can covert it into block type element
+- example 
+   span {
+    display : block;
+   }
+   after doing this we can give custom height, width, margin on vertical side 
+
+
+just like we covert inline element into block type element we can covert block element into inline element
+
+
+3. inline-block - 
+  - it behavious like inline element but we can give custom width and height and custom margin on both side as well
+  - still it will come side by side (on same line, 2.b) but we can give custom height and width

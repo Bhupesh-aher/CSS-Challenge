@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: beige;
+            border: 5px solid black;
+        }
+        .box{
+            width: 350px;
+            height: 80px;
+            background-color: blue;
+            border: 5px solid rgb(40, 26, 26);
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            animation-name: leftToRight;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+            animation-delay: 3s;
+            animation-timing-function: ease-out;
+            /* animation-timing-function: cubic-bezier(1, 0.4, 0.58,-0.09); */
+            animation-direction: alternate;
+            /* animation-fill-mode: forword; */
+        }
+        @keyframes leftToRight {
+            from{
+                top: 0;
+                left: 0;
+            }
+
+            to {
+                top: 0;
+                left: 1200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>

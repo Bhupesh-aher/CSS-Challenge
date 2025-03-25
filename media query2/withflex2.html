@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+        }
+        img{
+            height: 300px;
+            width: 300px;
+        }
+        img{
+            margin-left: 50px;
+        }
+        @media (min-width: 640px) {
+            .container{
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem, neque excepturi ab earum quia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem, neque excepturi ab earum quia.</p>
+        </div>
+        <div>
+           <img src="sup1.JPG" alt="">
+        </div>
+    </div>
+</body>
+</html>
