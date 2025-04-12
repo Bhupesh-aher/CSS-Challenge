@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Jonb Application</h2>
+
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="emailId">Email ID</label>
+        <input type="email" id="emailId">
+        <br><br>
+
+        <label for="phoneNo">Phone</label>
+        <input type="tel" id="phoneNo">
+        <br><br>
+
+        <label for="upload">Resume - </label>
+        <input type="file" id="upload">
+        <br>
+
+        <label for="counter">Expereince (in years)</label>
+        <input type="number" max="50" min="0" id="counter">
+
+        <br><br>
+
+        <fieldset>
+            <legend>Skills</legend>
+
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label>
+
+            <input type="checkbox" id="js">
+            <label for="js">Javascript</label>
+        </fieldset>
+
+        <br><br>
+
+        <label for="equcation">Highest Equcation</label>
+        <select name="equcation" id="equcation">
+            <option value="hs">High School</option>
+            <option value="ad">Assocaite's Degree</option>
+            <option value="bd">bechlor's Degree</option>
+            <option value="pd">PHD</option>
+        </select>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Availibility</legend>
+            
+            <input type="radio" id="ft" name="ava">
+            <label for="ft">Full-time</label>
+
+            <input type="radio" id="pt" name="ava">
+            <label for="pt">Part-time</label>
+        </fieldset>
+
+        
+
+        <br><br>
+
+        <label for="addcom">Additional Comments</label>
+        <br>
+        <textarea name="addcom" id="addcom" cols="30" rows="10"></textarea>
+        <button>Submit Application</button>
+
+    </form>
+</body>
+</html>
